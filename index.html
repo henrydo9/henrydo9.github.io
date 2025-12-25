@@ -40,6 +40,40 @@
 </head>
 <body>
 
+
+<h2>Interactive Map</h2>
+
+
+<div style="margin: 40px 0;">
+  <iframe
+    title="A remote site to drill into the ocean floor"
+    aria-label="Locator map"
+    id="datawrapper-chart-nJdJc"
+    src="https://datawrapper.dwcdn.net/nJdJc/4/"
+    scrolling="no"
+    frameborder="0"
+    style="width: 0; min-width: 100% !important; border: none;"
+    height="579"
+    data-external="1">
+  </iframe>
+</div>
+
+<script type="text/javascript">
+!function() {
+  window.addEventListener("message", function(a) {
+    if (void 0 !== a.data["datawrapper-height"]) {
+      var e = document.querySelectorAll("iframe");
+      for (var t in a.data["datawrapper-height"])
+        for (var r, i = 0; r = e[i]; i++)
+          if (r.contentWindow === a.source) {
+            r.style.height = a.data["datawrapper-height"][t] + "px";
+          }
+    }
+  });
+}();
+</script>
+
+
 <h2>CSV DataTable with Multi-Column Filters</h2>
 
 <table id="example" class="display compact" style="width:100%">
